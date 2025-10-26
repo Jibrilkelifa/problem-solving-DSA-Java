@@ -15,6 +15,14 @@ public class TestArgs {
         for ( int i=0; i < names.size(); i++){
             System.out.println(names.get(i));
         }
+
+        for ( String nam: names){
+            System.out.println(nam);
+        }
+        String name = "JAVA";
+
+        StringBuilder sb = new StringBuilder(name);
+        System.out.println(sb.reverse());
     }
 
 }
