@@ -9,15 +9,15 @@ public class ScopeExample {
         System.out.println("Static: " + staticVar);
     }
 
-    public static void main(String[] args) {
-//        ScopeExample obj = new ScopeExample();
-//        obj.method();
+//    public static void main(String[] args) {
+////        ScopeExample obj = new ScopeExample();
+////        obj.method();
+////
+////        ScopeExample nice = new ScopeExample();
 //
-//        ScopeExample nice = new ScopeExample();
-
-//        System.out.println(nice.instanceVar);
-
-        // Static variable can be accessed without object
-        System.out.println("Static variable: " + ScopeExample.staticVar);
-    }
+////        System.out.println(nice.instanceVar);
+//
+//        // Static variable can be accessed without object
+//        System.out.println("Static variable: " + ScopeExample.staticVar);
+//    }
 }
